@@ -64,36 +64,6 @@ li a:hover{
     color: #ffa8d6;
     transition: 0.25s ease-in-out;
 }
-.option1:after{
-    content: "";
-    position: absolute;
-    top: 9vh;
-    left: 66.7vh;
-    width: 0;
-    height: 3px;
-    background: #ffa8d6;
-    transition: .3s;
-    bottom: 0;
-}
-
-.option1:hover:after{
-    width: 5%;
-}
-.option2:after{
-    content: "";
-    position: absolute;
-    top: 9vh;
-    left: 86vh;
-    width: 0;
-    height: 3px;
-    background: #ffa8d6;
-    transition: .3s;
-    bottom: 0;
-}
-.option2:hover:after{
-    width: 6.3%;
-}
-
 .content{
     margin-top: 2vh;
 }
