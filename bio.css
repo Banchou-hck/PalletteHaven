@@ -1,0 +1,221 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    overflow-x: hidden;
+    background-image: url(Resources/Background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Page{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin: auto;
+    padding: 30px 0;
+    margin-left: 0vh;
+    width: 100%;
+    height: 30px;
+    align-items: center;
+    border-bottom: 20px;
+    background-color: #B76E79 ;
+}
+.title{
+    font-family: Grand Hotel;
+    font-size: 50px;
+    color:#ff9baa;
+}
+.title:hover{
+    color: #ffb3be;
+    transition: .25s ease-in-out;
+}
+nav ul{
+    padding-bottom: 0;
+    margin-left: 10vh;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 35px 20px;
+    border-bottom: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+li a:hover{
+    color: #ffa8d6;
+    transition: 0.25s ease-in-out;
+}
+.option1:after{
+    content: "";
+    position: absolute;
+    top: 9vh;
+    left: 66.7vh;
+    width: 0;
+    height: 3px;
+    background: #ffa8d6;
+    transition: .3s;
+    bottom: 0;
+}
+
+.option1:hover:after{
+    width: 5%;
+}
+.option2:after{
+    content: "";
+    position: absolute;
+    top: 9vh;
+    left: 86vh;
+    width: 0;
+    height: 3px;
+    background: #ffa8d6;
+    transition: .3s;
+    bottom: 0;
+}
+.option2:hover:after{
+    width: 6.3%;
+}
+
+.content{
+    margin-top: 2vh;
+}
+.content p{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.client_Pic{
+    height: 400px;
+    margin-left: 80vh;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
+    border-radius: 100%;
+}
+span{
+    font-family: Grand Hotel;
+    color:#B76E79;
+    font-size: 60px;
+    transition: .25s;
+}
+span:hover{
+    color:#7b4a51;
+}
+.icons{
+    margin-top: 5vh;
+    font-size: 10vh;
+    margin-left: 90vh;
+}
+.icons a{
+    margin-left: 2vh;
+    margin-left: 2vh;
+    color: #B76E79;
+    text-decoration: none;
+}
+.icons a:hover{
+    color: #6b4f53;
+    transition: .25s ease-in-out;
+}
+
+@media (max-width: 600px) {
+    body{
+        width: 100%;
+        margin-right: 600px;
+    }
+    .title{
+        font-family: Grand Hotel;
+        font-size: 40px;
+        color:#ff9baa;
+    }
+    nav ul{
+        margin-left: 5px;
+    }
+    nav ul li{
+        margin: 30px 16px;
+        border-bottom: 10px;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 5px;
+        padding: 10px 10px;
+        margin-left: -5px;
+    }
+    .option1:after{
+        content: "";
+        position: absolute;
+        top: 9vh;
+        left: 45vh;
+        width: 0;
+        height: 3px;
+        background: #ffa8d6;
+        transition: .3s;
+        bottom: 0;
+    }
+    
+    .option1:hover:after{
+        width: 10%;
+    }
+    .option2:after{
+        content: "";
+        position: absolute;
+        top: 9vh;
+        left: 59vh;
+        width: 0;
+        height: 3px;
+        background: #ffa8d6;
+        transition: .3s;
+        bottom: 0;
+    }
+    .option2:hover:after{
+        width: 13%;
+    }
+    .content p{
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    .client_Pic{
+        height: 300px;
+        margin-left: 20vh;
+        margin-top: 2vh;
+        margin-bottom: 5vh;
+        border-radius: 100%;
+    }
+    span{
+        font-family: Grand Hotel;
+        color:#B76E79;
+        font-size: 45px;
+        transition: .25s;
+    }
+    .icons{
+        margin-top: 5vh;
+        font-size: 10vh;
+        margin-left: 26vh;
+    }
+    .icons a{
+        margin-left: 2vh;
+        margin-left: 2vh;
+        color: #B76E79;
+        text-decoration: none;
+    }
+}
